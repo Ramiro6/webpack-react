@@ -1,7 +1,7 @@
 const path = require('path')
 
 module.exports = {
-  entry: path.resolve(__dirname, './src/index.js'),
+  entry: path.resolve(__dirname, './src/App.jsx'),
   output: {
     path: path.resolve(__dirname, 'dist'),
     publicPath: '/',
@@ -13,7 +13,7 @@ module.exports = {
     rules: [
       {
         exclude: /node_modules/,
-        test: /\.js$/,
+        test: /\.(js|jsx)$/,
         loader: 'babel-loader'
       }
     ]
