@@ -1,0 +1,13 @@
+{
+  "name": "webpack-react",
+  "version": "1.0.0",
+  "description": "A simple configuration of webpack",
+  "main": "index.js",
+  "repository": "https://github.com/Ramiro6/webpack-react.git",
+  "author": "ramiro6 <ramiroruiz578@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "webpack": "^4.12.1"
+  }
+}
